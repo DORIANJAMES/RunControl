@@ -10,11 +10,15 @@ public class characterController : MonoBehaviour
 
     private float ileri;
     private float yanlar;
+    private GameObject zeminSolBorder;
+    private GameObject zeminSagBorder;
 
     // Start is called before the first frame update
     void Awake()
     {
         anm = this.GetComponent<Animator>();
+        zeminSagBorder = GameObject.FindWithTag("zeminSagCollider");
+        zeminSolBorder = GameObject.FindWithTag("zeminSolCollider");
         
     }
 
@@ -28,15 +32,14 @@ public class characterController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            if (Input.GetAxis("Mouse X") > 0)
+            if (Input.GetAxis("Mouse X") != 0)
             {
-                transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x + .1f, transform.position.y, transform.position.z), .3f);
+                transform.position = Vector3.Lerp(transform.position, new Vector3(Mathf.Clamp(transform.position.x - Input.GetAxisRaw("Mouse X"), zeminSagBorder.transform.position.x, zeminSolBorder.transform.position.x), transform.position.y, transform.position.z), .3f);
             }
-            if (Input.GetAxis("Mouse X") < 0)
-            {
-                transform.position = Vector3.Lerp(transform.position, new Vector3(transform.position.x - .1f, transform.position.y, transform.position.z), .3f);
-            }
-
+            //if (Input.GetAxis("Mouse X") < 0)
+            //{
+            //    transform.position = Vector3.Lerp(transform.position, new Vector3(Mathf.Clamp(transform.position.x - .1f, zeminSolBorder.transform.position.x, zeminSagBorder.transform.position.x), transform.position.y, transform.position.z), .3f);
+            //}
         }
 
 
@@ -72,8 +75,5 @@ public class characterController : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        
-    }
+    
 }
