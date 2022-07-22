@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{38BD330B-E9CF-818F-61AA-C950B2D02515}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/subCharactersController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
       <File FileName="Assets/Scripts/characterController.cs" Line="24" Column="9" />
       <File FileName="Assets/Scripts/subCharactersController.cs" Line="37" Column="41" />
@@ -8,8 +8,10 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RunControl" expanded="True" selected="True">
-            <Node name="Assets" expanded="True" />
+          <Node name="RunControl" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -17,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e58e29b3-a4d5-452a-a253-a9bb0cc44d8f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a3dae7f5-0ecf-4cb3-b71b-5be2767bc46e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
