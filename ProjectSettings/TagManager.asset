@@ -7,6 +7,9 @@ TagManager:
   - GameManager
   - igneliKutu
   - subPlayer
+  - zeminSolCollider
+  - zeminSagCollider
+  - Grounds
   layers:
   - Default
   - TransparentFX
