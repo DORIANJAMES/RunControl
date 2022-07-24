@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{38BD330B-E9CF-818F-61AA-C950B2D02515}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/characterController.cs">
     <Files>
-      <File FileName="Assets/Scripts/characterController.cs" Line="24" Column="9" />
-      <File FileName="Assets/Scripts/subCharactersController.cs" Line="37" Column="41" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="34" Column="18" />
+      <File FileName="Assets/Scripts/characterController.cs" Line="46" Column="38" />
+      <File FileName="Assets/Scripts/subCharactersController.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a3dae7f5-0ecf-4cb3-b71b-5be2767bc46e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cfa99f7b-4784-4b78-abfc-8c1044e5a1e3" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
